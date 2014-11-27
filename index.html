@@ -25,7 +25,7 @@
     <div class="sidebar pure-u-1 pure-u-md-1-4">
     <div class="header">
         <hgroup>
-            <h1 class="brand-title"><a href="http://jhackers.github.io">jHackers&#39; Blog</a></h1>
+            <h1 class="brand-title"><a href="http://localhost:1313">jHackers&#39; Blog</a></h1>
             <h2 class="brand-tagline">A theme based on the pure css blog layout.</h2>
         </hgroup>
 
@@ -48,11 +48,32 @@
             
             <div class="posts">
                 
+                <h1 class="content-subhead">12 Oct 2014, 00:00</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://localhost:1313/post/first/" class="post-title">first</a>
+
+                        <p class="post-meta">
+                            
+                            
+                                under 
+                                <a class="post-category post-category-Posts" href="/categories/Posts">Posts</a>
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>Welcome here my friend. We&rsquo;re going to have a good time together!</p>
+
+                    </div>
+                </section>
+                
                 <h1 class="content-subhead">12 Oct 2014, 00:06</h1>
                 <section class="post">
                     <header class="post-header">
 
-                        <a href="http://jhackers.github.io/about/" class="post-title">About Us</a>
+                        <a href="http://localhost:1313/about/" class="post-title">About Us</a>
 
                         <p class="post-meta">
                             
@@ -77,6 +98,14 @@
 <li>Joël Viellepeau</li>
 </ul>
 
+<p>And sometimes other contributors:</p>
+
+<ul>
+<li>Etienne Chamayou</li>
+</ul>
+
+<p>maybe you?</p>
+
                     </div>
                 </section>
                 
@@ -94,5 +123,8 @@
 </div>
 
 
-</body>
+<script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>
